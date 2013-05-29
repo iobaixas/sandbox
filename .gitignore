@@ -1,0 +1,4 @@
+res/*
+ruby/.rbenv-version
+*.sublime-project
+*.sublime-workspace
