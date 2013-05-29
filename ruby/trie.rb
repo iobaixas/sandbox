@@ -72,7 +72,7 @@ private
     end
 
     candidates(_result, _word[1..-1], _node, _error-1) if _error > 0 # delete
-    candidates(_result, _word[1]+_word[0]+_word[2..-1], _node, _error-1, NO_TRASPOSE) if _error > 0 and _word.length > 1 # transpose
+    candidates(_result, _word[1]+_word[0]+_word[2..-1], _node, _error-1) if _error > 0 and _word.length > 1 # transpose
   end
 
 end
